@@ -1,0 +1,313 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.main{
+    width: 100%;
+    height: auto;
+    background-image: url("../img/backgrounds/bgwithnoise/bluebackgroundwithnoisefullhd.png");
+    background-repeat: repeat;
+}
+
+.main .register{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.main .register .registerContainer{
+    background: #002764;
+    border: #A19100 1px solid;
+    padding: 50px 50px 10px 50px;
+    height: 850px;
+    width: 100%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    /* justify-content: space-evenly; */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .register .registerContainer h1{
+    font-family: "caudex-bold";
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    padding-bottom: 25px;
+    text-transform: uppercase
+}
+
+.main .register .registerContainer hr{
+    border-color: #A19100;
+    width: 90%;
+    margin: 20px 0;
+}
+
+.main .register .registerContainer form{
+    height: 100%;
+    width: 80%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;    
+}
+
+.main .register .registerContainer form label{
+    width: 100%;
+    position: relative;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.main .register .registerContainer form label p{
+    color: white;
+    font-size: 1.5rem;
+    font-family: "caudex-bold";
+    width: 150px;
+    text-align: center;
+}
+
+label input{
+    padding: 5px 15px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    font-family: "caudex";
+    color: black;
+}
+
+form button{
+    background: #03518C;
+    border: #A19100 solid 1px;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: "caudex-bold";
+    text-align: center;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+}
+
+form button:hover{
+    cursor: pointer;
+    background: #002764;
+    width: 205px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    background: rgb(228, 228, 228);
+}
+
+label .valerror{
+    -webkit-box-shadow: 0 0 10px 5px rgb(134, 29, 29);
+            box-shadow: 0 0 10px 5px rgb(134, 29, 29);
+}
+
+.main .register .registerContainer form label .valtexterror{
+    width: 500px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: left;
+    position: absolute;
+    color: rgb(180, 42, 42);
+
+    bottom: -30px;
+    left: 130px;
+}
+
+.displayerrors{
+    width: 300px;
+    margin: 10px auto 0 auto;
+    padding: 20px;
+    background: rgb(161, 156, 156);
+    color: rgb(134, 29, 29);
+    border: solid 2px rgb(251, 46, 46);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.displaySuccess{
+    width: 300px;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    padding: 20px;
+    background: rgb(161, 156, 156);
+    color: rgb(8, 100, 33);
+    border: solid 2px rgb(74, 236, 109);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.displaySuccess .a{
+    color: #A19100;
+    font-weight: 600;
+}
+
+.displaySuccess p{
+    margin-bottom: 5px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #002764; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0,35,93);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0,35,93,1)), color-stop(30%, rgba(0,22,58,1)), color-stop(70%, rgba(0,22,58,1)), to(rgba(0,35,93,1)));
+    background: linear-gradient(0deg, rgba(0,35,93,1) 0%, rgba(0,22,58,1) 30%, rgba(0,22,58,1) 70%, rgba(0,35,93,1) 100%);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000c20; 
+  }
+
+/* === Mobile Design === */
+
+@media screen and (max-width: 992px) {
+
+    .main .register{
+        width: 80%;
+        padding-top: 120px;
+    }
+
+    .main .contact .contactContainer{
+        padding: 20px 20px 10px 20px;
+    }
+
+    .main .register .registerContainer{
+        padding: 20px 20px 10px 20px;
+        height: 850px
+    }
+
+    .main .register .registerContainer h1{
+        font-size: 2.3rem;
+    }
+
+    .main .register .registerContainer form{
+        width: 100%;
+    }
+    
+    .main .register .registerContainer form label{
+        width: 100%;
+    
+        display: -webkit-box;
+    
+        display: -ms-flexbox;
+    
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    .main .register .registerContainer form label p{
+        color: white;
+        font-size: 1.5rem;
+        font-family: "caudex-bold";
+        width: 150px;
+        text-align: center;
+    }
+
+    label input{
+        font-size: 1.3rem;
+    }
+
+    .main .register .registerContainer form label .valtexterror{
+        width: 250px;
+        bottom: -27px;
+        left: 0;
+    }
+
+    .displayerrors{
+        width: 250px;
+    }
+
+    .displaySuccess{
+        width: 250px;
+    }
+
+}
